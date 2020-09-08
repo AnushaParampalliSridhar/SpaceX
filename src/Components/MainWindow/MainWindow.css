@@ -1,0 +1,16 @@
+.main-window{
+    width: 100%;
+    padding:2rem;
+    min-height: 94vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(218, 223, 225, 1);
+}
+
+.main-content-container{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}

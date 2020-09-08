@@ -1,0 +1,25 @@
+.programs-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+}
+
+.loading-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@media only screen and (max-width : 1024px){
+    .programs-container{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width : 700px){
+    .programs-container{
+        width: 100%;
+    }
+}
